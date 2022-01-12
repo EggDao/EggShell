@@ -172,7 +172,7 @@ export function FetchPXL(filters, order, offset) {
   arr = arr.toString();
   console.log(arr);
   return twquery(`{
-    allPosts(orderBy: ${order} first: 30 offset: ${offset} filter: {and: {or:[${arr}]}, userId: {equalTo: "16322"}}) {
+    allPosts(orderBy: ${order} first: 30 offset: ${offset} filter: {and: {or:[${arr}]}, userId: {equalTo: "272"}}) {
       totalCount
       edges {
         node {
